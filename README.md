@@ -1,7 +1,7 @@
-Q# random password generator
+# Overview
+Q# Random password generator
 Written in 2018
 
-# Overview
 This project is a proof of concept application I had written back in high school during my time studying Quantum Computing. It generates random bits utilizing quantum superposition. The project is simple and was a fun activity to incorpate quantum machanics with password security. 
 
 This project is comprised of the qs source code, a python encoding script, and bat file.
@@ -30,10 +30,5 @@ Microsoft .NET Framework
 Installation: https://dotnet.microsoft.com/en-us/download/dotnet-framework
 
 QDK package for .NET
-Installation: execute the follow from cmd.exe dotnet new -i Microsoft.Quantum.ProjectTemplates
-
-# Example Output
-[!] Raw Bits: 010010000110010101111001001000000101010001101000011001010111001001100101 
-[!] Randomly generate string: i)=Au,)6) 
-[!] Number of Characters Generated: 9
+Commandline Installation: dotnet new -i Microsoft.Quantum.ProjectTemplates
 
