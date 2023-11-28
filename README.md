@@ -1,6 +1,5 @@
 # Overview
-Q# Random password generator
-Written in 2018
+Q# Random password generator 2018
 
 This project is a proof of concept application I had written back in high school during my time studying Quantum Computing. It generates random bits utilizing quantum superposition. The project is simple and was a fun activity to incorpate quantum machanics with password security. 
 
