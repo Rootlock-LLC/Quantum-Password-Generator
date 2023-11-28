@@ -8,8 +8,8 @@ namespace QRandom_bit_generator {
     
     operation randombit() : Int {
         use q = Qubit();
-        H(q);
-        let res = M(q);
+        H(q);                                   // Utilize Hardamards gate to set Qubit to a superposition state
+        let res = M(q);                         // Measure Qubit state 
         if res == Zero {                        // Returns Ints to represent Qubit state 
             return 0;
         }
@@ -19,6 +19,8 @@ namespace QRandom_bit_generator {
     }
     @EntryPoint()
     operation main_loop(length : Int) : Int[] {  // Return type Int[] returns Array of Ints
+
+        // Read argument length 
         if length == 0 {
             Message("Enter Required Password Length\n");
             return [0];
